@@ -147,7 +147,7 @@ echo source ~/.gdbinit-gef.py >> ~/.gdbinit
 sudo locale-gen en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export LANG=en_US.UTF-8
-export LC_CTYPE=en_US.UTF-8
+export LC_CTYPE=C.UTF-8
 export LC_ALL=en_US.UTF-8
 sudo dpkg-reconfigure locales
 
